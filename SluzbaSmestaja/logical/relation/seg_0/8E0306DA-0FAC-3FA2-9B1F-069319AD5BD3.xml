@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StudStudira" directorySegmentName="seg_0" id="8E0306DA-0FAC-3FA2-9B1F-069319AD5BD3">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:46:22 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="D230A423-0481-7A4A-EE45-F3332C1F5822" value="true"/>
+</engineerTo>
+<targetPk>D2B212E1-1F30-4A33-CDC8-A56DDCEB95B3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F27377BD-81ED-132D-8724-4A3863262558</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4A4DDC2B-4095-0E43-58B3-6025717664F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_4" directorySegmentName="seg_0" id="DC1B756C-D048-BF00-A010-E38E4A953450">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:07:01 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="D230A423-0481-7A4A-EE45-F3332C1F5822" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>494BD0FC-1746-A821-A3E3-BAE1F5BBADD7</sourceEntity>
+<targetEntity>56154F74-C9FA-04F5-3B41-8886D5F2C06F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

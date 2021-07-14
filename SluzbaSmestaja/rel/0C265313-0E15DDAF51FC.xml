@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="0C265313-BE57-E941-C2CC-0E15DDAF51FC" mainViewID="D10ADDDE-66B6-4438-118D-8C3260A0E59C">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:03:31 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

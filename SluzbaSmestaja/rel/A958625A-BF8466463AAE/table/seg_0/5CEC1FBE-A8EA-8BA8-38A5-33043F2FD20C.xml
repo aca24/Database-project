@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CEC1FBE-A8EA-8BA8-38A5-33043F2FD20C" name="Uplata">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>B1CDA39F-82E2-38EF-2564-27AA00557969</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_upl" id="1202785B-B668-55C9-D32C-52DC7280325E">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>2F919D6E-8733-4400-708A-6C7830B40AC8</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_izd_upl" id="F229569C-C66D-6A52-97EA-5A8A4F5EAC17">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>8E1CAF93-40B6-F2E0-427A-D5FAC8AE638B</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos_upl" id="96060EB5-906A-72DB-09C7-3F6C2286EF26">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>9D95971A-CF1A-F4B9-364F-D69F9CE38403</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Radnik_u_SZUK_sifra_rad" id="9421B281-5AD6-D570-630E-A54A99A27CBA">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>114D77D4-A013-659D-62BE-F488DE20CB5A</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53EBC623-34AC-B097-0D1E-A6A8D7064019" referredColumn="32457186-F604-067C-1CE8-8677C1C4CCFF"/>
+</associations>
+</Column>
+<Column name="Kategorija_id_kat" id="4818016C-21FE-E428-B6F4-6571A15FCDBE">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>D649BB4E-1E81-D856-648B-B56545FBFBA5</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E88A1C1D-788F-429C-32AE-800FBA9B8A97" referredColumn="6966306C-5171-8561-1C81-2E4D8EAE4BBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAE55E79-4EC3-1AB3-E79B-7B3AAF3735B0" name="Uplata_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>7B92C059-C891-DE95-8B75-C5CA818AA16C</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1202785B-B668-55C9-D32C-52DC7280325E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3D63761-8517-22BE-452C-BE66BC12CEA8" name="Uplata_Radnik_u_SZUK_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>FA97E9D2-5CF8-88B3-18B9-406EE0444CBA</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9421B281-5AD6-D570-630E-A54A99A27CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="300621EE-18CA-F772-EDF6-8ED8D246255C" name="Uplata_Kategorija_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>71677390-12AC-7EEB-B1B7-2E29A8772D6D</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4818016C-21FE-E428-B6F4-6571A15FCDBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

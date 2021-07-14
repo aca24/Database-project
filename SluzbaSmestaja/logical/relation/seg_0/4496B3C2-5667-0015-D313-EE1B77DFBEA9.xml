@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Radi" directorySegmentName="seg_0" id="4496B3C2-5667-0015-D313-EE1B77DFBEA9">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 20:21:31 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="D230A423-0481-7A4A-EE45-F3332C1F5822" value="true"/>
+</engineerTo>
+<sourcePk>148B7B96-C755-BB17-911D-4A29B2681951</sourcePk>
+<targetPk>E4CDCB3A-A391-1070-3779-853A55CE39AA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53CB218E-FF7B-7359-D19D-FD0C27EE4A45</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>494BD0FC-1746-A821-A3E3-BAE1F5BBADD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

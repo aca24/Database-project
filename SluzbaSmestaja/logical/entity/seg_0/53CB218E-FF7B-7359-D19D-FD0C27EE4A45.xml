@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53CB218E-FF7B-7359-D19D-FD0C27EE4A45" name="SluzbaSmestaja">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:15:02 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ss" id="D4E76086-70D9-1FCD-A8D5-7D8D8CF51539">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:15:52 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rad_vreme" id="89362234-D1E9-49E9-23C6-302A8C7833A8">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:16:34 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="148B7B96-C755-BB17-911D-4A29B2681951" name="SluzbaSmestaja PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:16:12 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4E76086-70D9-1FCD-A8D5-7D8D8CF51539</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

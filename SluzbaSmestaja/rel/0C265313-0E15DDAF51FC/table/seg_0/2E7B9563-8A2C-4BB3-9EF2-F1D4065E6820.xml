@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E7B9563-8A2C-4BB3-9EF2-F1D4065E6820" name="Smer">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>0528690A-DF15-64BE-AD78-28327014C3F4</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_smera" id="6BAA2F96-C033-824F-5EF8-969D884B0912">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>33D006FA-976B-60BE-BD2B-03024787FE08</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naz_smera" id="16F245A3-278C-9FBE-9FD0-6B04A2F961DA">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>760BA552-F23E-883F-28B1-B5E68AB8C946</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fak_id_fak" id="B03ED0A0-C46F-15DE-EF07-48B4C5009218">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>7B8C60CB-4551-2A8D-5E8F-B72D170D59A3</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6239FF7B-1A71-C68D-5D78-07C4B268AD16" referredColumn="D66B4ED0-D525-0203-B5A9-28114D5039BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85A3F2EC-6270-D46F-878F-B07E535FD05C" name="Smer_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>C03E5A9F-62EC-A441-3C42-C5A8AA94357E</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAA2F96-C033-824F-5EF8-969D884B0912"/>
+<colUsage columnID="B03ED0A0-C46F-15DE-EF07-48B4C5009218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04A9BD45-B301-E61B-437A-8B50ED41D038" name="Smer_Fakultet_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>29994864-6F7E-BF60-B002-19CB37CB8C4C</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B03ED0A0-C46F-15DE-EF07-48B4C5009218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

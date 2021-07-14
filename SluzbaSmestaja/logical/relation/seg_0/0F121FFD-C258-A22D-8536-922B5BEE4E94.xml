@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImaCenu" directorySegmentName="seg_0" id="0F121FFD-C258-A22D-8536-922B5BEE4E94">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:17:39 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="D230A423-0481-7A4A-EE45-F3332C1F5822" value="true"/>
+</engineerTo>
+<sourcePk>9C780574-FD5A-BF56-250D-09540C7019AB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7644B6F-DA08-4ACE-C2F0-17E1B7C2D291</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA6D7722-BD52-4B07-17FF-9BB1E850A7BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

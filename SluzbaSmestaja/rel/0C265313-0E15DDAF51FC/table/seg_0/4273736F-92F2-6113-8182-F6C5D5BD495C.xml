@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4273736F-92F2-6113-8182-F6C5D5BD495C" name="Upravnik">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>31590258-7940-89A2-0BE5-83C706DBCE46</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_rad" id="B38F56B4-6DB1-DB39-A7FE-B253D1203BB5">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>8B1A208B-5B17-BE39-4A2D-E451CC35B624</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76B655AD-B162-C263-720A-A9C181F7349F" referredColumn="FC2D8548-B47A-66B4-C08F-B8FE8C4535DE"/>
+</associations>
+</Column>
+<Column name="br_kancel" id="A7AD6985-376D-C0F3-ADAB-F239FC59F0C9">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 10:11:15 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB1AFA64-1335-0F62-340E-5EFD07DFEBED" name="Upravnik_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>E4CDCB3A-A391-1070-3779-853A55CE39AA</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B38F56B4-6DB1-DB39-A7FE-B253D1203BB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="237773A6-7FF8-A968-2533-90332FD5D6FB" name="Upravnik_Radnik_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>20082CBA-3745-C97D-11D1-157F83242FB3</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B38F56B4-6DB1-DB39-A7FE-B253D1203BB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

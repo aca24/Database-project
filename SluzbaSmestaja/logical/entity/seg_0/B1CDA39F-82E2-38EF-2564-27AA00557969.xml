@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1CDA39F-82E2-38EF-2564-27AA00557969" name="Uplata">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:57:50 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_upl" id="2F919D6E-8733-4400-708A-6C7830B40AC8">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:58:01 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_izd_upl" id="8E1CAF93-40B6-F2E0-427A-D5FAC8AE638B">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:58:35 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos_upl" id="9D95971A-CF1A-F4B9-364F-D69F9CE38403">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:59:03 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_rad" id="114D77D4-A013-659D-62BE-F488DE20CB5A">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:07:35 UTC</createdTime>
+<generatorID>FA97E9D2-5CF8-88B3-18B9-406EE0444CBA</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<referedAttribute>8B1A208B-5B17-BE39-4A2D-E451CC35B624</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kat" id="D649BB4E-1E81-D856-648B-B56545FBFBA5">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:12:26 UTC</createdTime>
+<generatorID>71677390-12AC-7EEB-B1B7-2E29A8772D6D</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<referedAttribute>7A659D06-39F9-5CFE-6E51-07A08B2035FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B92C059-C891-DE95-8B75-C5CA818AA16C" name="Uplata PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:58:24 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F919D6E-8733-4400-708A-6C7830B40AC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

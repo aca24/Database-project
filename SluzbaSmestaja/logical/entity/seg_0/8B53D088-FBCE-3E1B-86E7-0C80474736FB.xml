@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B53D088-FBCE-3E1B-86E7-0C80474736FB" name="Soba">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:02:59 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sobe" id="FB0DFFAD-2C6E-B4AA-8506-E0608A22218A">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:03:09 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sprat_sobe" id="70A25FD5-3818-F0A8-6A45-544ECAD403F7">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:03:37 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sd" id="A96617ED-16FA-D533-C61A-78CA3007D505">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:07:04 UTC</createdTime>
+<generatorID>026D6AF8-9848-C136-60B4-A6B70F60D926</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<referedAttribute>9B053426-2C15-E228-9943-F81818CFF401</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CE7A268-B4B5-9CD6-3636-994B0423540A" name="Soba PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:03:21 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB0DFFAD-2C6E-B4AA-8506-E0608A22218A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

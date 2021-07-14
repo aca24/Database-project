@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B75B79F9-3E8A-D35F-4A3E-1FA0D072B85A" name="StudentskiDom">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>D431FA1D-6916-2664-0D31-ED2AA743DFB8</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sd" id="AD7F54DD-7B6C-5297-A5BF-FBEC5D497130">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>9B053426-2C15-E228-9943-F81818CFF401</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_sd" id="95EF73C2-23A1-E21D-3E77-7BC6152B2584">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>E17A1C92-02CC-7FAB-C486-EE6B44C08200</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SluzbaSmestaja_id_ss" id="0CEDA88B-147B-B39F-8D4E-51C1F40C1D6D">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>1D657D77-4F66-314E-DB5A-EF44CADD41E5</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDA24ED1-8D0C-286B-C15C-A434D0D59D9C" referredColumn="81AAF85C-A5B9-2138-ECED-65CD6F15E4FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1834129D-D847-49AA-F048-15E031E1EA0E" name="StudentskiDom_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>21D81629-4FCC-5E3F-047C-8042B7EF9FAC</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD7F54DD-7B6C-5297-A5BF-FBEC5D497130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BC8F7E4-ED0B-C5EA-78F5-C1936CCFDB63" name="StudentskiDom_SluzbaSmestaja_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>D76B8CD0-1039-0322-DDAC-FBFB07173077</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CEDA88B-147B-B39F-8D4E-51C1F40C1D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

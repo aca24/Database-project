@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="2D823D66-0F7C-0745-D4D8-72B9DF14E055" name="FKArc_1">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>1046ADB2-F98B-928E-5D4A-9CBDBE0AAD21</table>
+<discriminatorColumn>CD17CE4C-B039-1B9A-80BB-6505079981A8</discriminatorColumn>
+<fkeys>
+<fkeyID>76B655AD-B162-C263-720A-A9C181F7349F</fkeyID>
+<fkeyID>4EE54320-E5A7-45DF-21C6-C0F833C39428</fkeyID>
+</fkeys>
+</FKArc>

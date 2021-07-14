@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Preuzima" directorySegmentName="seg_0" id="FA97E9D2-5CF8-88B3-18B9-406EE0444CBA">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:07:35 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="D230A423-0481-7A4A-EE45-F3332C1F5822" value="true"/>
+</engineerTo>
+<sourcePk>E4CDCB3A-A391-1070-3779-853A55CE39AA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>56154F74-C9FA-04F5-3B41-8886D5F2C06F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1CDA39F-82E2-38EF-2564-27AA00557969</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

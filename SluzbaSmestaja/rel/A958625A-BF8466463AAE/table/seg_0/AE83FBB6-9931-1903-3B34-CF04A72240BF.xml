@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE83FBB6-9931-1903-3B34-CF04A72240BF" name="Upravlja">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Upravnik_sifra_rad" id="85ED0365-1E96-D4B1-4432-A5337F2F3CC0">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B30C64A1-FD45-6DD2-98A7-5C351B933139" referredColumn="4A222224-1336-F0F9-F1AB-4C1F063305FC"/>
+</associations>
+</Column>
+<Column name="StudentskiDom_id_sd" id="C22C2A64-D7AF-FBC0-BE05-4770E67636AA">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:43 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A406B5A-A925-7156-B1FB-67A22AC10624" referredColumn="AD7F54DD-7B6C-5297-A5BF-FBEC5D497130"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4761CF5-7F99-7843-F885-B97DE534F8CF" name="Upravlja_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85ED0365-1E96-D4B1-4432-A5337F2F3CC0"/>
+<colUsage columnID="C22C2A64-D7AF-FBC0-BE05-4770E67636AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D2C1719-3C5C-BD22-4E5F-E58BDF5FA25A" name="Upravlja_Upravnik_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>5AB456E9-BEA0-1250-01A3-01D31A7D0F0A</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85ED0365-1E96-D4B1-4432-A5337F2F3CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7E5C91C-B28D-639E-38A7-64A877872968" name="Upravlja_StudentskiDom_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>5AB456E9-BEA0-1250-01A3-01D31A7D0F0A</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C22C2A64-D7AF-FBC0-BE05-4770E67636AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEAF33B0-B526-437A-67A3-8FB2F5B6DED2" name="Studiranje">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>F27377BD-81ED-132D-8724-4A3863262558</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<ordsAlias>studira</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fak_id_fak" id="0347DB4B-2FCC-A37B-73EA-6AE518ED354A">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>27D292DC-A34C-F4D2-7E95-B772EBDF600D</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19A0B248-469F-207F-1793-2B937ABD56DF" referredColumn="D66B4ED0-D525-0203-B5A9-28114D5039BE"/>
+</associations>
+</Column>
+<Column name="JMBG_student" id="0BA246A3-D98F-E540-D522-6EEF8B14313F">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>B0A2EC50-4F11-27A2-21A9-1A336144E625</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4545460A-DF9B-ABDF-A13E-71F50ED21787" referredColumn="7B41802A-0A32-FABE-18EE-26041C6817C2"/>
+</associations>
+</Column>
+<Column name="sob_id_sobe" id="8F802CF3-19BD-4E5F-46C4-0EFAAE133C14">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>7F4205A7-D75E-1B96-41FA-0443403166F7</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="077B2A89-53E1-F66C-3D03-5C7F8198A316" referredColumn="8EB7FACB-3B03-B04A-052A-64FA003923BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A40DE758-85A6-999B-E914-9E1BDCA37B6D" name="Studira_Fakultet_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>DF4B3204-3918-FEFC-4994-5ED70F5017C0</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0347DB4B-2FCC-A37B-73EA-6AE518ED354A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32006879-44DC-70E6-9091-123C1593AD2A" name="Studira_Soba_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>21E3C7DA-CE78-E425-4428-8D28A1B44958</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F802CF3-19BD-4E5F-46C4-0EFAAE133C14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02ADB036-0382-989B-14C5-D857BB13676E" name="Studira_Student_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>8E0306DA-0FAC-3FA2-9B1F-069319AD5BD3</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA246A3-D98F-E540-D522-6EEF8B14313F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

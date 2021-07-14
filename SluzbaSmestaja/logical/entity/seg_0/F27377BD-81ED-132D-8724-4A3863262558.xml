@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F27377BD-81ED-132D-8724-4A3863262558" name="Studira">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:34:17 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fak" id="27D292DC-A34C-F4D2-7E95-B772EBDF600D">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:36:51 UTC</createdTime>
+<generatorID>DF4B3204-3918-FEFC-4994-5ED70F5017C0</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<referedAttribute>7EE0B718-DF9A-97FA-4DDE-3DB8B8F2B12D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG_stud" id="B0A2EC50-4F11-27A2-21A9-1A336144E625">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:53:24 UTC</createdTime>
+<generatorID>8E0306DA-0FAC-3FA2-9B1F-069319AD5BD3</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<referedAttribute>6ADC365D-7447-80A5-9948-796F854B2DA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sobe" id="7F4205A7-D75E-1B96-41FA-0443403166F7">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 18:40:34 UTC</createdTime>
+<generatorID>21E3C7DA-CE78-E425-4428-8D28A1B44958</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB0DFFAD-2C6E-B4AA-8506-E0608A22218A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

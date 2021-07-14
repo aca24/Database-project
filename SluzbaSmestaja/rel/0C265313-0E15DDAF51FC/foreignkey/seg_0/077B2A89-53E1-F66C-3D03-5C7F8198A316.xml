@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="077B2A89-53E1-F66C-3D03-5C7F8198A316" containerWithKeyObject="AEAF33B0-B526-437A-67A3-8FB2F5B6DED2" localFKIndex="32006879-44DC-70E6-9091-123C1593AD2A" name="Studira_Soba_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>21E3C7DA-CE78-E425-4428-8D28A1B44958</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<referredTableLongName>Soba</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76F74639-639E-B30A-404C-B9C10CADA81D</referredTableID>
+<keyObject>B782A2ED-D004-51E0-A720-3D17F6044C48</keyObject>
+<referredKeyID>B782A2ED-D004-51E0-A720-3D17F6044C48</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_sobe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

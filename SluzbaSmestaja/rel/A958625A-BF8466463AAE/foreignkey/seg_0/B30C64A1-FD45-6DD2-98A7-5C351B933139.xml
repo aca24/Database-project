@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B30C64A1-FD45-6DD2-98A7-5C351B933139" containerWithKeyObject="AE83FBB6-9931-1903-3B34-CF04A72240BF" localFKIndex="4D2C1719-3C5C-BD22-4E5F-E58BDF5FA25A" name="Upravlja_Upravnik_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>5AB456E9-BEA0-1250-01A3-01D31A7D0F0A</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<referredTableLongName>Upravnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>852D2A15-092D-7FE2-B736-9F1180BCDD1C</referredTableID>
+<keyObject>1648CD27-7F6E-A3B7-286F-00A72236A843</keyObject>
+<referredKeyID>1648CD27-7F6E-A3B7-286F-00A72236A843</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifra_rad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

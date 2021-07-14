@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31590258-7940-89A2-0BE5-83C706DBCE46" name="Upravnik">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 20:29:42 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+<item key="A958625A-B547-F7D1-40FA-BF8466463AAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>494BD0FC-1746-A821-A3E3-BAE1F5BBADD7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="br_kancel" id="A282A074-0D0E-AF85-2E6D-78ACFE82FC29">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 10:07:17 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+<item key="A958625A-B547-F7D1-40FA-BF8466463AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

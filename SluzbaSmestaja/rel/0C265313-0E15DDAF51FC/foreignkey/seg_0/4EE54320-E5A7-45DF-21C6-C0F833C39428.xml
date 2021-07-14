@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EE54320-E5A7-45DF-21C6-C0F833C39428" containerWithKeyObject="9CB584E6-C8BB-4BED-C5F1-A95672B603BA" localFKIndex="2212B203-12E0-F7AE-A361-BBAEC590FB1E" name="Radnik_u_SZUK_Radnik_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>DC1B756C-D048-BF00-A010-E38E4A953450</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>2D823D66-0F7C-0745-D4D8-72B9DF14E055</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1046ADB2-F98B-928E-5D4A-9CBDBE0AAD21</referredTableID>
+<keyObject>5C1B1B95-A70B-EABE-2EF5-C92578CCFC7A</keyObject>
+<referredKeyID>5C1B1B95-A70B-EABE-2EF5-C92578CCFC7A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifra_rad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Radnik_u_SZUK</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

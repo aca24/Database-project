@@ -1,0 +1,286 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6614890-7F49-25EF-BDAB-666FE4FB3702" name="Student">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>4A4DDC2B-4095-0E43-58B3-6025717664F6</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG_stud" id="7B41802A-0A32-FABE-18EE-26041C6817C2">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>6ADC365D-7447-80A5-9948-796F854B2DA4</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_stud" id="FCC9BE2F-0ABB-1584-A54E-BC3F5A4F2258">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>3D7F9154-EBA1-1CC7-5B36-09536B0BA134</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prez_stud" id="F7DF0E09-57CF-F230-D271-6A6F5F104BBB">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>48DF81AE-B764-3BA5-62FA-3EFAF6CA55E6</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_rodj_stud" id="A7D81733-6FDB-2523-4C0F-FCEA1A773BA2">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>B2D1B286-B24C-E81E-FFDF-9093B5F4B91A</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="br_ind" id="B1765E0B-08EE-A9C0-EBA6-2C60A85F4D51">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>2B5AA031-FCC2-D89E-A3BA-5556AF45AC11</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="god_upisa" id="2A66977A-0759-3929-D360-DABFAF0E90A5">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>620C34B3-0E8F-F7A2-B098-EBAA41767B61</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_stud" id="7CFEBFEB-4702-9770-8E07-899B398BB529">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>7C48DBA9-B88E-1FD9-D98D-8593BB3B3C35</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="smer_sifra_smera" id="2ED569B7-DB26-1C8A-1736-BC899D1E74CE">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>C78BB676-EB6E-3124-B3B9-B6EF12184B60</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEBBE956-32ED-CDA0-A5D7-548D4F4D3C18" referredColumn="6BAA2F96-C033-824F-5EF8-969D884B0912"/>
+</associations>
+</Column>
+<Column name="smer_fakultet_id_fak" id="8ADFB7A4-B074-2A87-FE7C-98CE791D05DB">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>0962C980-3835-1680-3165-19204FD91323</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEBBE956-32ED-CDA0-A5D7-548D4F4D3C18" referredColumn="B03ED0A0-C46F-15DE-EF07-48B4C5009218"/>
+</associations>
+</Column>
+<Column name="id_grada_ms" id="4C74C8A3-26D1-5AB7-624D-1715B4F2EC93">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>EB1EABD5-D7D8-6765-AE4E-AF15828D99C8</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEA29CD2-76D1-EBF3-6509-16955C125E14" referredColumn="75E9F556-8EB3-8C17-EA5C-EBC2650EC637"/>
+</associations>
+</Column>
+<Column name="id_grada_mr" id="B56508C7-A869-1C91-9535-8F08AFA26109">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>17DB2DF6-8C1A-AB60-6FB9-A52277E48EA1</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16243466-1016-E68C-7FC9-91B8AD7B2F88" referredColumn="75E9F556-8EB3-8C17-EA5C-EBC2650EC637"/>
+</associations>
+</Column>
+<Column name="id_drzave_ms" id="F5DFC289-FB83-C6B7-674A-260DDD81E0CE">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>BCBB9F41-3F46-643A-41C8-CCC523E69351</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16243466-1016-E68C-7FC9-91B8AD7B2F88" referredColumn="4DE04970-4297-2ABF-41DE-3653CCF7CFDD"/>
+</associations>
+</Column>
+<Column name="id_drzave_mr" id="CBD7958D-1C54-DDF5-418F-9D122AAEEF45">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>2DB7AD30-EC69-AF4F-D223-60F18896DBF7</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEA29CD2-76D1-EBF3-6509-16955C125E14" referredColumn="4DE04970-4297-2ABF-41DE-3653CCF7CFDD"/>
+</associations>
+</Column>
+<Column name="kategorija_id_kat" id="D68E0A5B-09E8-6B1B-5D88-7458293D0A0E">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>E7451C9C-12A3-D42B-D0D1-85FA3D1579C7</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77F45980-9BC2-71DA-6AB1-944B29293A3C" referredColumn="91EF9704-9EF3-C393-F72F-5D945D513AD7"/>
+</associations>
+</Column>
+<Column name="uplata_id_upl" id="B045E482-421E-25B4-DE96-7F938C824E03">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>F3AC1BF2-2232-A7E0-139D-EAC78484440F</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08437219-1746-70D2-1B5D-A8AB42E1D4CC" referredColumn="F863D28D-7290-EC5D-1078-28AA9602D3AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A925DD9E-4CB9-D1E1-3913-C6A33FA22E13" name="Student_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>D2B212E1-1F30-4A33-CDC8-A56DDCEB95B3</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B41802A-0A32-FABE-18EE-26041C6817C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E71B7D90-7E86-124C-4AC9-744B4CFF8776" name="Student_Kategorija_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>A1D9CF7B-2F99-930A-2CA7-F7B515084F6E</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D68E0A5B-09E8-6B1B-5D88-7458293D0A0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B06659E-A94A-8D83-434D-E7F2A1C6B334" name="Student_Smer_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>3F4B2F64-672E-0DFA-C6A5-9398C1E8CAE1</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ED569B7-DB26-1C8A-1736-BC899D1E74CE"/>
+<colUsage columnID="8ADFB7A4-B074-2A87-FE7C-98CE791D05DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AB86E6D-D201-8568-F526-8B62E309CEED" name="Student_Grad_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>86E23FFC-8FD0-BC4C-978A-A23F3E85680E</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B56508C7-A869-1C91-9535-8F08AFA26109"/>
+<colUsage columnID="F5DFC289-FB83-C6B7-674A-260DDD81E0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24A67595-BA28-00E8-7C0D-94A8141EDCC9" name="Student_Grad_FKv1">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>5A12228E-9CCA-E54E-916A-45771E614618</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C74C8A3-26D1-5AB7-624D-1715B4F2EC93"/>
+<colUsage columnID="CBD7958D-1C54-DDF5-418F-9D122AAEEF45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B2D325D-ACB0-3B20-2B9C-45ED114C2084" name="Student_Uplata_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 20:04:00 UTC</createdTime>
+<generatorID>F680A696-1BB9-508C-074A-2A70801F04E6</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B045E482-421E-25B4-DE96-7F938C824E03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

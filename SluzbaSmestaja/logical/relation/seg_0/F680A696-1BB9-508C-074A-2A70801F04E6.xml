@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vrsi" directorySegmentName="seg_0" id="F680A696-1BB9-508C-074A-2A70801F04E6">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 23:01:32 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<sourcePk>7B92C059-C891-DE95-8B75-C5CA818AA16C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1CDA39F-82E2-38EF-2564-27AA00557969</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4A4DDC2B-4095-0E43-58B3-6025717664F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

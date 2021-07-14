@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImaKat" directorySegmentName="seg_0" id="A1D9CF7B-2F99-930A-2CA7-F7B515084F6E">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:59:57 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<sourcePk>9C780574-FD5A-BF56-250D-09540C7019AB</sourcePk>
+<targetPk>D2B212E1-1F30-4A33-CDC8-A56DDCEB95B3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7644B6F-DA08-4ACE-C2F0-17E1B7C2D291</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4A4DDC2B-4095-0E43-58B3-6025717664F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

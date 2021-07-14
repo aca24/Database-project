@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SeOdnosi" directorySegmentName="seg_0" id="71677390-12AC-7EEB-B1B7-2E29A8772D6D">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 22:12:26 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<sourcePk>9C780574-FD5A-BF56-250D-09540C7019AB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7644B6F-DA08-4ACE-C2F0-17E1B7C2D291</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1CDA39F-82E2-38EF-2564-27AA00557969</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

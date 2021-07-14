@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FakStud" directorySegmentName="seg_0" id="DF4B3204-3918-FEFC-4994-5ED70F5017C0">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:36:51 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="D230A423-0481-7A4A-EE45-F3332C1F5822" value="true"/>
+</engineerTo>
+<sourcePk>5BB1951D-F8DA-E2C8-49FC-CA8D638AB616</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>806F9327-6443-A186-C658-D7FEA6FC2E41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F27377BD-81ED-132D-8724-4A3863262558</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="189F5F4F-CEDC-E8D1-5DFC-6D6E70EFA6DE" containerWithKeyObject="A856DAB4-F477-BD05-7A74-D9C632D71E2B" localFKIndex="5437A955-C364-E818-A026-F14EDE77F93F" name="Konkurs_SluzbaSmestaja_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>EA779A33-4556-9A86-EA52-7E67DFC6F652</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<referredTableLongName>SluzbaSmestaja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8167B4F6-F3A0-FDDB-356F-AD5E67E2FC84</referredTableID>
+<keyObject>3E758A25-5F1C-EC51-4FDC-D069E4C86A64</keyObject>
+<referredKeyID>3E758A25-5F1C-EC51-4FDC-D069E4C86A64</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_ss</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="852D2A15-092D-7FE2-B736-9F1180BCDD1C" name="Upravnik">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>31590258-7940-89A2-0BE5-83C706DBCE46</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_rad" id="4A222224-1336-F0F9-F1AB-4C1F063305FC">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>8B1A208B-5B17-BE39-4A2D-E451CC35B624</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6A19BC8-2DB0-EF57-96D6-FCCE7E86B3D9" referredColumn="30DFAD85-9D05-17D2-6453-91F69DCDF492"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1648CD27-7F6E-A3B7-286F-00A72236A843" name="Upravnik_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>E4CDCB3A-A391-1070-3779-853A55CE39AA</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A222224-1336-F0F9-F1AB-4C1F063305FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC0D149A-4E15-B2C6-FDE3-3873E4E274FB" name="Upravnik_Radnik_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>20082CBA-3745-C97D-11D1-157F83242FB3</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A222224-1336-F0F9-F1AB-4C1F063305FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

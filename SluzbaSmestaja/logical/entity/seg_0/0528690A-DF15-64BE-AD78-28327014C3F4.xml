@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0528690A-DF15-64BE-AD78-28327014C3F4" name="Smer">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 20:57:21 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifra_smera" id="33D006FA-976B-60BE-BD2B-03024787FE08">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 20:57:30 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naz_smera" id="760BA552-F23E-883F-28B1-B5E68AB8C946">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 20:57:57 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fak" id="7B8C60CB-4551-2A8D-5E8F-B72D170D59A3">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 21:01:50 UTC</createdTime>
+<generatorID>29994864-6F7E-BF60-B002-19CB37CB8C4C</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="true"/>
+</engineerTo>
+<referedAttribute>7EE0B718-DF9A-97FA-4DDE-3DB8B8F2B12D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C03E5A9F-62EC-A441-3C42-C5A8AA94357E" name="Smer PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 20:57:55 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0165BDB0-47A3-6908-9A66-74B862FD71F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33D006FA-976B-60BE-BD2B-03024787FE08</attributeRef>
+<attributeRef>7B8C60CB-4551-2A8D-5E8F-B72D170D59A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

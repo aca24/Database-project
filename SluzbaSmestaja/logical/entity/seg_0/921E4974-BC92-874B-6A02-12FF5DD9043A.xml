@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="921E4974-BC92-874B-6A02-12FF5DD9043A" name="Konkurs">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:54:41 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kon" id="2CC68256-4847-EE13-5331-2B750AB235CC">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:55:06 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_kon" id="2E56ED24-F08A-AC79-92F0-00307CDB6696">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:55:34 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ss" id="691E69F1-5DC8-6794-BB8E-86F18B2BCE85">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-20 01:15:21 UTC</createdTime>
+<generatorID>EA779A33-4556-9A86-EA52-7E67DFC6F652</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D4E76086-70D9-1FCD-A8D5-7D8D8CF51539</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8CD9A51-52AE-E0A7-44F6-AB2C758440A6" name="Konkurs PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-19 19:55:24 UTC</createdTime>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<engineerTo>
+<item key="0C265313-BE57-E941-C2CC-0E15DDAF51FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CC68256-4847-EE13-5331-2B750AB235CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

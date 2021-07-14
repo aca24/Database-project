@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0A86215-CBC5-7355-3DCB-763EECF84444" name="Radnik">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>494BD0FC-1746-A821-A3E3-BAE1F5BBADD7</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_rad" id="30DFAD85-9D05-17D2-6453-91F69DCDF492">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>8B1A208B-5B17-BE39-4A2D-E451CC35B624</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG_rad" id="DE9B3FB6-4FFE-DEFA-C736-0A0E6C3E0596">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>32ED95F0-E9A3-1E41-3369-D6974636BEBA</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_rad" id="3A0F404E-B563-FFD3-94BE-734F085E2CDC">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>7BB20515-F463-7353-05C3-6B92003A4E04</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prez_rad" id="40C5F7FB-E030-2E97-448D-7044864ECDD2">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>FB99C3F2-15F2-2436-8B0A-272A65F20B00</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_rodj_rad" id="DF9E2A3F-AD7F-9764-46ED-E634C06444A0">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>C1039C35-56F3-0EA8-7AE7-48AF61DC932B</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SluzbaSmestaja_id_ss" id="842E3BBB-E5FC-FDBB-C0B4-95E29821B682">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>671DEB81-CD4B-1E58-E6EA-C9BAD216B22A</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DA82B15-FD99-E014-A1BA-25CD7948FEDE" referredColumn="81AAF85C-A5B9-2138-ECED-65CD6F15E4FC"/>
+</associations>
+</Column>
+<Column name="zanimanje" id="EBE600A5-EA2D-9BC9-7676-FA044462E60E">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>3124E3B2-F7F6-5D95-827F-9B5FB9B08124</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<constraintName>CH_INH_Radnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<dataTypeSize>13</dataTypeSize>
+<domain>FB6995C9-054D-30B5-2504-82B14335C8FC</domain>
+<listOfValues>
+<valueDef value="Radnik" description="entity Radnik"/>
+<valueDef value="Radnik_u_SZUK" description="entity Radnik_u_SZUK"/>
+<valueDef value="Upravnik" description="entity Upravnik"/>
+</listOfValues>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD58A268-741D-1CD5-3D7B-252B36276530" name="Radnik_PK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>E4CDCB3A-A391-1070-3779-853A55CE39AA</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30DFAD85-9D05-17D2-6453-91F69DCDF492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D343A2F-C7B5-166E-B160-10D7537CD236" name="Radnik_SluzbaSmestaja_FK">
+<createdBy>HP 250 G6</createdBy>
+<createdTime>2021-01-22 02:25:42 UTC</createdTime>
+<generatorID>4496B3C2-5667-0015-D313-EE1B77DFBEA9</generatorID>
+<ownerDesignName>SluzbaSmestaja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="842E3BBB-E5FC-FDBB-C0B4-95E29821B682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
